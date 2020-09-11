@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a202c" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="manifest" href="./manifest.json" />
+    <title>weatherApp</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>Find Weather Forecasts for any location</h2>
+
+        <input
+          type="text"
+          class="search"
+          placeholder="Enter city & Press Enter to Search..."
+        />
+      </header>
+      <main>
+        <section class="current-location">
+          <div class="city"></div>
+          <div class="date"></div>
+        </section>
+        <section class="current-temp">
+          <div class="temp"><span></span></div>
+          <div class="weather"></div>
+        </section>
+      </main>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/index.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.20.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.20.0/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+  </body>
+</html>

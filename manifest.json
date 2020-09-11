@@ -1,0 +1,8 @@
+{
+  "name": "GADS weatherApp PWA",
+  "short-name": "weatherApp PWA",
+  "start_url": ".",
+  "background_color": "#2d3748",
+  "theme_color": "#1a202c",
+  "display": "standalone"
+}
